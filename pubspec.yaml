@@ -1,0 +1,25 @@
+name: astro_error_handling
+description: An astro principle for error handling.
+version: 0.0.0-a1
+publish_to: none
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  astro_types:
+    git:
+      url: https://github.com/enspyrco/monorepo.git
+      path: packages/flutter/utils/astro_types
+  astro_locator:
+    git:
+      url: https://github.com/enspyrco/monorepo.git
+      path: packages/dart/utils/astro_locator
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
