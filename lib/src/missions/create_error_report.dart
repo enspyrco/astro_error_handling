@@ -34,18 +34,18 @@ class CreateErrorReport<S extends AstroState> extends LandingMission<S> {
     final dynamicState = state as dynamic;
     List<DefaultErrorReport> newReports = [
       report,
-      ...dynamicState.error.reports
+      ...dynamicState.error.reports as List<DefaultErrorReport>
     ];
     List<PageState> newStack = [
       ErrorReportPageState(report),
-      ...dynamicState.navigation.stack
+      ...dynamicState.navigation.stack as List<PageState>
     ];
 
     /// Sections
     ErrorHandlingState newError =
-        dynamicState.error.copyWith(reports: newReports);
+        dynamicState.error.copyWith(reports: newReports) as ErrorHandlingState;
     NavigationState newNavigation =
-        dynamicState.navigation.copyWith(stack: newStack);
+        dynamicState.navigation.copyWith(stack: newStack) as NavigationState;
 
     return dynamicState.copyWith(error: newError, navigation: newNavigation)
         as S;
