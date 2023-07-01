@@ -3,7 +3,7 @@ import 'package:astro_types/error_handling_types.dart';
 import 'package:astro_types/navigation_types.dart';
 import 'package:astro_types/state_types.dart';
 
-import '../../astro_error_handling.dart';
+import '../../error_handling_for_perception.dart';
 
 class RemoveErrorReport<S extends AstroState> extends LandingMission<S> {
   const RemoveErrorReport(this.report);

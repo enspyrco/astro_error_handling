@@ -1,6 +1,6 @@
-# astro_error_handling
+# error_handling_for_perception
 
-*An astro principle for error handling.*
+*A perception principle for error handling.*
 
 Plugin components:
 
