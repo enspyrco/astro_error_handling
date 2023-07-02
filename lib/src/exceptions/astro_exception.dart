@@ -1,4 +1,4 @@
-import 'package:astro_types/error_handling_types.dart';
+import 'package:types_for_perception/error_handling_types.dart';
 
 /// [AstroException] has members for message and reportSettings so
 /// that anyone can easily create an exception that configures the resulting

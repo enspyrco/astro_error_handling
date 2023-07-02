@@ -1,5 +1,5 @@
-import 'package:astro_types/navigation_types.dart';
-import 'package:astro_types/state_types.dart';
+import 'package:types_for_perception/navigation_types.dart';
+import 'package:types_for_perception/state_types.dart';
 
 import '../../state/models/error_report.dart';
 

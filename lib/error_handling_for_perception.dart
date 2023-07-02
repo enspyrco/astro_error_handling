@@ -1,8 +1,8 @@
 library error_handling_for_perception;
 
-import 'package:astro_locator/astro_locator.dart';
-import 'package:astro_types/core_types.dart';
-import 'package:astro_types/state_types.dart';
+import 'package:locator_for_perception/locator_for_perception.dart';
+import 'package:types_for_perception/core_types.dart';
+import 'package:types_for_perception/state_types.dart';
 import 'package:flutter/material.dart';
 
 import 'src/routes/error_report/error_report_page_state.dart';

@@ -1,7 +1,7 @@
 import 'package:error_handling_for_perception/error_handling_for_perception.dart';
-import 'package:astro_types/core_types.dart';
-import 'package:astro_types/error_handling_types.dart';
-import 'package:astro_types/state_types.dart';
+import 'package:types_for_perception/core_types.dart';
+import 'package:types_for_perception/error_handling_types.dart';
+import 'package:types_for_perception/state_types.dart';
 
 /// TODO: We need a type for [state] that has [copyWith(reports: ...]
 /// and as [extends AstroState]

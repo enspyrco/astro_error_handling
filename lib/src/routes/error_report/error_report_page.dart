@@ -1,4 +1,4 @@
-import 'package:astro_types/state_types.dart';
+import 'package:types_for_perception/state_types.dart';
 import 'package:flutter/material.dart';
 
 import '../../state/models/error_report.dart';
@@ -26,7 +26,7 @@ class ErrorReportPage<T extends AstroState> extends MaterialPage {
   }
 }
 
-/// Duplicated here rather than import astro_navigation
+/// Duplicated here rather than import navigation_for_perception
 class EasyTweenSlideTransition extends StatelessWidget {
   const EasyTweenSlideTransition(
       {required this.animation, required this.child, super.key});

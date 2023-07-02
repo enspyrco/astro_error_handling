@@ -4,7 +4,7 @@
 
 Plugin components:
 
-- packages: astro_navigation
+- packages: navigation_for_perception
 - AstroBase: Listen to state.navigation.stack & push pages into Navigator
 - snippets: Create PageState & Page - classes are named with the file name
 
